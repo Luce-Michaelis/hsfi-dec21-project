@@ -10,8 +10,8 @@ When someone clicks goals-button we should hide all-content
 and then show only goals-content
 */
 $("#goals-button").click(function(){
-    $('.all-content').hide();
-    $('#goals-content').show();
+    $(".all-content").hide();
+    $("#goals-content").show();
 });
 
 
@@ -20,6 +20,11 @@ When someone clicks the info button we should hide all-content
 and then show only info-content
 */
 $("#info-button").click(function(){
-    $('.all-content').hide();
+    $(".all-content").hide();
     $('#info-content').show();
+});
+$("#past-button").click(function(){
+    $(".all-content").hide();
+    $("#past-content").show();
+    
 });
