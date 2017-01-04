@@ -28,3 +28,23 @@ $("#past-button").click(function(){
     $("#past-content").show();
     
 });
+$("#dark").click(function() {
+    $(".all-content").hide();
+    $("#dark-theme").show();
+    $("body").css("color","white");
+    $("body").css("background-color","gray");
+   
+});
+
+$("#dont-press").click(function() {
+    alert( "Dont touch!");
+    
+});
+$("#takeover-beast").click(function(){
+    $(".all-content").hide();
+    $("#takeover-content").show();
+    
+});
+$("#takeover-form-button").click(function(){
+    $("#takeover-content").html("DUDE YOU TOOK OVER!" + $("#takeover-input").val());
+});
